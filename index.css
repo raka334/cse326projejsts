@@ -55,13 +55,13 @@
   .desktop1-text {
     top: -1rem;
     left: 53px;
-    color: rgba(3, 28, 30, 0.8999999761581421);
+    color: rgba(1, 8, 9, 0.9);
     width: 351px;
     height: auto;
     position: absolute;
     font-size: 85px;
     align-self: auto;
-    font-style: ExtraBold;
+  
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
