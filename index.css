@@ -4,9 +4,9 @@
 
 #bg1{
   background-image: url("img/bg1.png"); 
-  background-color: white;
+  background-position: fixed;
   background-repeat: no-repeat;
-  background-size:  1920px 1080px;
+  background-size:1920px 1080px;
 }
 .desktop1-desktop1 {
     width: 100%;
@@ -24,7 +24,7 @@
     
     height: 170px;
     width: 456px;
-    
+    margin-top:-50px  ;
     
   }
   .desktop1-i-m-a-g-e291 {
@@ -222,8 +222,6 @@ background: radial-gradient(50% 50% at 50% 50%, #1AA00E 0%, rgba(27, 145, 17, 0)
     border-color: transparent;
     border-radius: 84px;
     background-color: rgba(20, 47, 72, 0.3499999940395355);
-  }
-  .desktop1-text15 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 45px;
@@ -237,5 +235,13 @@ background: radial-gradient(50% 50% at 50% 50%, #1AA00E 0%, rgba(27, 145, 17, 0)
     margin-right: 0;
     margin-bottom: 0;
     text-decoration: none;
+    transition: 200ms;
+  }
+  .desktop1-text15 {
+   
+  }
+  .desktop1-frame1:hover{
+    color:#a811ff59;
+    background-color: white;
   }
  
