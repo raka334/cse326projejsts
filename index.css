@@ -80,7 +80,7 @@
     border-color: transparent;
   }
   .desktop1-text02 {
-    color: rgba(0, 0, 0, 1);
+    color: rgb(251, 247, 247);
     height: auto;
     font-size: 34px;
     align-self: auto;
@@ -143,7 +143,7 @@
     top: 80px;
     left: 88px;
     width: 1519px;
-    height: 726px;
+    height: 613px;
     display: flex;
     padding: 0;
     position: absolute;
