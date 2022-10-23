@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
 
 #bg1{
@@ -52,7 +53,7 @@
     margin-right: 35px;
   }
   .desktop1-text {
-    top: -4px;
+    top: -1rem;
     left: 53px;
     color: rgba(3, 28, 30, 0.8999999761581421);
     width: 351px;
@@ -62,7 +63,7 @@
     align-self: auto;
     font-style: ExtraBold;
     text-align: left;
-    font-family: Archivo;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     line-height: normal;
     font-stretch: normal;
@@ -85,7 +86,7 @@
     align-self: auto;
     font-style: Medium;
     text-align: left;
-    font-family: Archivo;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     line-height: normal;
     font-stretch: normal;
@@ -100,7 +101,7 @@
     align-self: auto;
     font-style: Medium;
     text-align: left;
-    font-family: Archivo;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     line-height: normal;
     font-stretch: normal;
@@ -115,7 +116,7 @@
     align-self: auto;
     font-style: Medium;
     text-align: left;
-    font-family: Archivo;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     line-height: normal;
     font-stretch: normal;
@@ -130,7 +131,7 @@
     align-self: auto;
     font-style: Medium;
     text-align: left;
-    font-family: Archivo;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
     line-height: normal;
     font-stretch: normal;
