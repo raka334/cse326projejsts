@@ -60,6 +60,7 @@
     position: absolute;
     font-size: 85px;
     align-self: auto;
+   
   
     text-align: left;
     font-family: 'Raleway', sans-serif;
@@ -209,7 +210,7 @@ background: radial-gradient(50% 50% at 50% 50%, #1AA00E 0%, rgba(27, 145, 17, 0)
     width: 340px;
     display: flex;
     padding: 17px 36px;
-    position: absolute;
+    position: fixed;
     align-items: flex-start;
     border-color: transparent;
     border-radius: 84px;
@@ -218,10 +219,10 @@ background: radial-gradient(50% 50% at 50% 50%, #1AA00E 0%, rgba(27, 145, 17, 0)
   .desktop1-text15 {
     color: rgba(255, 255, 255, 1);
     height: auto;
-    font-size: 55px;
+    font-size: 45px;
     align-self: auto;
     font-style: SemiBold;
-    text-align: left;
+    text-align: center;
     font-family: Poppins;
     font-weight: 600;
     line-height: 91.50000214576721%;
