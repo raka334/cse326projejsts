@@ -4,9 +4,9 @@
 
 #bg1{
   background-image: url("img/bg1.png"); 
-  background-position: fixed;
   background-repeat: no-repeat;
-  background-size:1920px 1080px;
+  background-size:cover;
+  background-attachment:fixed;
 }
 .desktop1-desktop1 {
     width: 100%;
@@ -25,6 +25,7 @@
     height: 170px;
     width: 456px;
     margin-top:-50px  ;
+    margin-left: 40px;
     
   }
   .desktop1-i-m-a-g-e291 {
@@ -38,10 +39,11 @@
   .desktop1-navbar {
     top: 0px;
     left: -2px;
-    width: 1451px;
+    width: 95%;
     height: 196px;
     display: flex;
     padding: 33px 29px;
+   margin-top:-20px;
     position: absolute;
     align-items: center;
     flex-shrink: 0;
@@ -54,7 +56,7 @@
     display: flex;
     position: relative;
     align-items: flex-start;
-    flex-shrink: 0;
+    flex:3;
     border-color: transparent;
     margin-right: 35px;
   }
