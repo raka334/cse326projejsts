@@ -65,6 +65,41 @@
     border-color: transparent;
     margin-right: 35px;
   }
+
+  .button-nav{
+    color: black;
+    height: auto;
+    font-size: 2rem;
+    align-self: auto;
+    display: flex;
+    cursor: pointer;
+    text-align: left;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 35px;
+    margin-bottom: 0;
+    text-decoration: none;
+    border: 0px;
+    background: transparent;
+    padding: 10px;
+
+  }
+
+  .button-nav:hover{
+    color: black;
+    background-color: white;
+    border: 0px;
+    border-radius: 35px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transform: scale(0.5s);
+    transition: .5s ease-in-out;
+  }
+
   .desktop1-text {
     top: -1rem;
     left: 53px;
@@ -93,25 +128,7 @@
     position: absolute;
     border-color: transparent;
   }
-  .button-nav{
-    color: black;
-    height: auto;
-    font-size: 2rem;
-    align-self: auto;
-    display: flex;
-    cursor: pointer;
-    text-align: left;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 500;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 35px;
-    margin-bottom: 0;
-    text-decoration: none;
-    border: 0px;
-    background: transparent;
-    padding: 10px;
-  }
+  
   
   
   
@@ -154,7 +171,7 @@
     background: radial-gradient(50% 50% at 50% 50%, #1AA00E 0%, rgba(27, 145, 17, 0) 100%);
 
   }
-  .desktop1-q-dhn-wmpw-i-f2gt2awesk-rtransformed1 {
+  .sample-model{
     top: 30px;
     left: 550px;
     width: 1151px;
@@ -167,7 +184,7 @@
     margin-top: 20px;
     
   }
-  .desktop1-text10 {
+  .home-page-text {
     top: 169.32945251464844px;
     left: -1.1368683772161603e-13px;
     color: rgba(255, 255, 255, 1);
@@ -183,19 +200,21 @@
     line-height: 94.9999988079071%;
     font-stretch: normal;
     text-decoration: none;
+    padding-top:30px ;
+    margin-top: 50px;
   }
-  .desktop1-frame1 {
+  .shop-now-btn {
     top: 710px;
     left: 88px;
     width: 340px;
     display: flex;
     padding: 17px 36px;
-    position: fixed;
+    position:absolute;
     align-items: flex-start;
     border-color: transparent;
     border-radius: 84px;
     background-color: rgba(20, 47, 72, 0.3499999940395355);
-    color: rgba(255, 255, 255, 1);
+    color: white;
     height: auto;
     font-size: 45px;
     align-self: auto;
@@ -212,36 +231,41 @@
     margin-top: 5rem;
   }
   
-  .desktop1-frame1:hover{
-    color:#a811ff59;
-    background-color: cyan;
+  .shop-now-btn:hover{
+    color:rgb(46,209,214);
+    background-color: white;
   }
   .button-nav:hover{
     transform: scale(1.2);
   }
   
-.hero2{
+.flex-container{
   display: flex;
   height: auto;
   width: auto;
   flex-direction: row;
+  flex-wrap: wrap;
+  
   
 
 } 
 .box1{
-  display: flex;
-  flex-wrap: wrap;
-  border: 5px solid rgb(107, 0, 75);
+  border: 5px solid rgb(8, 7, 8);
   height: 300px;
   width: 400px;
-  border-radius: 1.5rem;
+  border-radius: 20px;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
+  
+  
 }
 .offer-1{
   font-size: 5rem;
   font-family: Poppins;
   color: white;
+  height: auto;
+  width: 400px;
+  text-align: center;
 
 }
 .box2{
@@ -269,4 +293,12 @@ a::before{
 a:visited{
   color: black;
 }
+
+
+#box1{
+  background-image: url(img/offer1.jpg);
+  background-size: cover;
+}
+
+
 
