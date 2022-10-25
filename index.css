@@ -53,6 +53,7 @@
     flex-shrink: 0;
     border-color: transparent;
     border-radius: 15px;
+
   }
   .desktop1-component1 {
     width: 456px;
@@ -230,7 +231,7 @@
 .box1{
   display: flex;
   flex-wrap: wrap;
-  border: 3px solid black;
+  border: 5px solid rgb(107, 0, 75);
   height: 300px;
   width: 400px;
   border-radius: 1.5rem;
