@@ -181,9 +181,13 @@
     display: flex;
     flex-direction: row;
     margin-left: 25rem;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
   }
+
+
+  
+
+
   .home-page-text {
     top: 169.32945251464844px;
     left: -1.1368683772161603e-13px;
@@ -201,12 +205,14 @@
     font-stretch: normal;
     text-decoration: none;
     padding-top:30px ;
-    margin-top: 50px;
+    margin-top: -15px;
   }
+
+
   .shop-now-btn {
     top: 710px;
     left: 88px;
-    width: 340px;
+    width: 400px;
     display: flex;
     padding: 17px 36px;
     position:absolute;
@@ -228,7 +234,7 @@
     margin-bottom: 0;
     text-decoration: none;
     transition: 300ms;
-    margin-top: 5rem;
+    margin-top: 4.5rem;
   }
   
   .shop-now-btn:hover{
@@ -245,20 +251,23 @@
   width: auto;
   flex-direction: row;
   flex-wrap: wrap;
-  
-  
-
 } 
+
+
 .box1{
-  border: 5px solid rgb(8, 7, 8);
+  border: 0px solid white;
   height: 300px;
   width: 400px;
-  border-radius: 20px;
+  border-radius: 25px;
   margin-left: 20px;
   margin-top: 30px;
-  
-  
+  box-shadow: 7px 14px 40px 0.1px #011d3499;
 }
+
+.box1 > img{
+  border-radius: 25px;
+}
+
 .offer-1{
   font-size: 5rem;
   font-family: Poppins;
@@ -295,10 +304,10 @@ a:visited{
 }
 
 
-#box1{
+/* #box1{
   background-image: url(img/offer1.jpg);
   background-size: cover;
-}
+} */
 
 
 
