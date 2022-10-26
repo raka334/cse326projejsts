@@ -4,7 +4,9 @@
 
 
 #bg1{
-  background-image: url("img/mesh-833.png"); 
+  /* background-image: url("img/mesh-833.png");  */
+  /* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); */
+  background-image: linear-gradient(105deg, #01be4a 10%, #d4f1ff 95%);
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment:fixed;
@@ -57,48 +59,71 @@
   }
   .desktop1-component1 {
     width: 456px;
-    height: 70px;
+    height: 110px;
     display: flex;
     position: relative;
     align-items: flex-start;
     flex:3;
     border-color: transparent;
-    margin-right: 35px;
+    /* margin-right: 35px; */
   }
 
   .button-nav{
     color: black;
     height: auto;
     font-size: 2rem;
+    font-weight: bold;
     align-self: auto;
     display: flex;
     cursor: pointer;
     text-align: left;
-    font-family: 'Manrope', sans-serif;
+    font-family: Arial;
     font-weight: 500;
     line-height: normal;
     font-stretch: normal;
-    margin-right: 35px;
-    margin-bottom: 0;
     text-decoration: none;
     border: 0px;
     background: transparent;
-    padding: 10px;
+    /* margin-right: 35px;
+    margin-bottom: 0; */
+    /* padding: 10px;
+    padding-right: 20px; */
+    transition: 500ms;
+    transform: scale(1);
 
+    
   }
+
+
+  #revolution, #product, #advantages, #contact {
+    color: white;
+    border: 0px;
+    padding: 17px 36px;
+    border-radius: 84px;
+    background-color: rgba(20, 47, 72, 0.3499999940395355);
+  
+  }
+
+
+
 
   .button-nav:hover{
-    color: black;
-    background-color: white;
+    color: rgb(16,193,87);
+    background-color: hsl(0, 0%, 100%);
     border: 0px;
-    border-radius: 35px;
-    padding-right: 20px;
+    background-color: none;
+    border-radius: 84px;
+    /* padding-right: 20px;
     padding-left: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    transform: scale(0.5s);
-    transition: .5s ease-in-out;
+    padding-bottom: 10px; */
+    transition: 200ms ease-in-out;
+
   }
+
+  
+
+
 
   .desktop1-text {
     top: -1rem;
@@ -185,7 +210,7 @@
   }
 
 
-  
+
 
 
   .home-page-text {
@@ -208,7 +233,8 @@
     margin-top: -15px;
   }
 
-
+  
+  
   .shop-now-btn {
     top: 710px;
     left: 88px;
@@ -238,7 +264,7 @@
   }
   
   .shop-now-btn:hover{
-    color:rgb(46,209,214);
+    color: rgb(16,193,87);
     background-color: white;
   }
   .button-nav:hover{
@@ -268,13 +294,14 @@
   border-radius: 25px;
 }
 
-.offer-1{
+.offer-txt{
   font-size: 5rem;
-  font-family: Poppins;
+  font-family: Arial;
   color: white;
   height: auto;
   width: 400px;
   text-align: center;
+  font-weight: bold;
 
 }
 .box2{
@@ -304,10 +331,10 @@ a:visited{
 }
 
 
+
+
 /* #box1{
   background-image: url(img/offer1.jpg);
   background-size: cover;
 } */
-
-
 
